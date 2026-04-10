@@ -1,0 +1,12 @@
+venv/
+venv310/
+venv312/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+staticfiles/
+media/
+.vscode/
+.idea/
