@@ -9,16 +9,7 @@ services:
         value: financial_portal.settings
       - key: SECRET_KEY
         value: "set-a-strong-secret-here"
-      - key: DATABASE_URL
-        fromDatabase:
-          name: biometric-db
-          property: connectionString
       - key: PYTHON_VERSION
         value: 3.12
       - key: DEBUG
         value: "False"
-
-databases:
-  - name: biometric-db
-    databaseName: biometric
-    user: biometric_user
