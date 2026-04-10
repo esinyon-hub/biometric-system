@@ -18,21 +18,26 @@ numpy==1.26.4
 scipy==1.11.4
 opencv-python==4.8.1.78
 pillow==10.4.0
+dlib==19.24.2
 face-recognition==1.3.0
-deepface==0.0.79
+# deepface can be heavy; keep only if essential
+# deepface==0.0.79
 
-# AI/ML stack
-torch
-torchvision
-torchaudio
+# AI/ML stack (CPU‑only builds)
+torch==2.11.0+cpu
+torchvision==0.26.0+cpu
+torchaudio==2.11.0+cpu
+tensorflow-cpu==2.21.0
 scikit-learn==1.3.2
 joblib==1.3.2
 threadpoolctl==3.2.0
-prophet==1.1.5
+# prophet is heavy; comment out if not critical
+# prophet==1.1.5
 pandas==2.2.2
-dj-database-url
-gunicorn
 
+# Deployment
+dj-database-url==3.1.2
+gunicorn==25.3.0
 
 # Utilities
 python-dotenv==1.0.1
