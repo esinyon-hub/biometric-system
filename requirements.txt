@@ -18,7 +18,6 @@ numpy==1.26.4
 scipy==1.11.4
 opencv-python==4.8.1.78
 pillow==10.4.0
-
 face-recognition==1.3.0
 face-recognition-models==0.3.0
 # deepface can be heavy; comment out if not essential
