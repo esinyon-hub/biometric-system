@@ -1,12 +1,38 @@
+# Virtual environments
 venv/
 venv310/
 venv312/
+
+# Python cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Databases
 *.sqlite3
+
+# Django static and media
 staticfiles/
 media/
+
+# IDE/editor settings
 .vscode/
 .idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local wheel/distribution files
+*.whl
+dist/
+build/
+
+# Coverage/test artifacts
+.coverage
+htmlcov/
+*.pytest_cache/
